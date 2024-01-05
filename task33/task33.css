@@ -1,0 +1,220 @@
+#main{
+    background-color: gainsboro;
+    height: 4550px;
+}
+#a{
+    background-image: url(img/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    padding-top: 300px;
+    height: 600px;width: 1500px;
+}
+#aa{
+    float: left;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 120px;
+}
+#aaa{
+    height: 5px;width: 200px;
+    background-color: gold;
+}
+#width{
+    height: 30px;width: 300px;border: 1px solid white;
+}
+#height{
+    height: 60px;width: 300px;border: 1px solid white;
+}
+#ab{
+    float: left;
+    margin-top: 150px;
+}
+input{
+    background-color: transparent;
+}
+textarea{
+    
+    background-color: transparent;
+}
+h1{
+    color: gold;
+    background-color: transparent;
+    
+    font-size: 75px;
+}
+h3{
+    font-size: 40px;
+}
+#b{
+    height: 200px;
+    width: 1500px;
+}
+#ba{
+    float: left;
+    margin-left: 200px;
+}
+#bh{
+    color: gold;
+    text-shadow: 1px 1px 2px black;
+}
+#bb{
+    float: left;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.read{
+    background-color: gold;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    border: 0;
+    height: 30px;
+    width: 100px;
+}
+#bc{
+    margin-top: 20px;
+    padding-left: 50px;
+    float: left;
+}
+#c{
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: black;
+    text-align: center;
+    height: 450px;width: 1500px;
+}
+.white{
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+.w{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+#cone{
+    padding-left: 200px;
+}
+#cb{
+    float: left;
+    margin-right: 100px;
+}
+#cc{
+    float: left;
+    margin-right: 100px;
+}
+#cd{
+    float: left;
+    margin-right: 100px;
+}
+#ce{
+    float: left;
+    margin-right: 100px;
+}
+#d{
+    background-image: url(img/44.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    padding-left: 200px;
+    padding-top: 100px;
+    margin-top: 100px;
+    padding-bottom: 400px;
+}
+#da{
+    float: left;
+}
+#db{
+    padding-left: 200px;
+    padding-top: 150px;
+    float: left;
+}
+h4{
+    font-size: 30px;
+}
+#e{
+    background-color: gainsboro;
+    height: 550px;
+}
+#ea{
+    text-align: center;
+}
+#gray{
+    color: gray;
+}
+.img{
+    height: 250px;
+    width: 350px;
+}
+#eb{
+    padding-left: 200px;
+}
+.two{
+    float: left;
+    margin: 5px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+#f{
+    background-image: url(img/bg.jpeg);
+    background-position: bottom;
+    background-size: 1500px;
+    height: 600px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+#radius{
+    border-radius: 200px;
+    height: 100px;
+    width: 100px;
+}
+#g{
+    padding-top: 10px;
+    margin-top: 50px;
+    height: 200px;
+    width: 1500px;
+}
+.four{
+    
+    height: 100px;
+}
+.pad{
+    padding-left: 10px;
+}
+.left{
+    float: left;
+    margin-left: 500px;
+}
+.right{
+    float: right;
+    margin-right: 500px;
+}
+#j{
+    height: 500px;width: 1200px;
+    padding: 50px;
+    padding-left: 250px;
+    margin-top: 50px;
+    background-image: url(img/cup.jpeg);
+}
+.reads{
+    background-color: gold;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    border: 0;
+    height: 30px;width: 100px;
+    margin-left: 10px;
+}
+.line{
+    float: left;
+    margin-right: 20px;
+    background-color: white;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+.box{
+    height: 150px;
+}

@@ -1,0 +1,39 @@
+#main{
+    margin-left: 300px;
+}
+input{
+    color: white;
+    background-color: blueviolet;
+    height: 30px;width: 100px;
+}
+ul{
+    list-style-type: circle;
+}
+#top{
+    display: inline-flex;
+}
+#down{
+    display: inline-flex;
+}
+div{
+}
+#text{
+    height: 300px;width: 200px;
+    flex-basis: 300px;
+    margin-left: 30px;
+    padding-top: 50px;
+}
+.green{
+    background-color: cadetblue;
+    height: 350px;width: 200px;
+    padding: 20px;margin: 20px;
+}
+.pink{
+    background-color: hotpink;
+    height: 350px;width: 200px;
+    padding: 20px;margin: 20px;
+}
+img{
+    background-color: hotpink;
+    height: 75px;width: 75px;
+}

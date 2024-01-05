@@ -1,0 +1,78 @@
+#main{
+    height: 500px;width: 1200px;background-color: black;
+}
+#one{
+    height: 100px;width: 1200px;background-color: aliceblue;
+}
+#two{
+    height: 500px;width: 1200px;background-color: aqua;
+}
+#three{
+    height: 400px;width: 200px;background-color: black;float: left;
+}
+#four{
+    height: 300px;width: 1000px;float: right;
+}
+#five{
+    height: 100px;width: 1000px;background-color: palevioletred;
+}
+#six{
+    height: 300px;width: 1000px;background-color: brown;
+}
+#seven{
+    height: 300px;width: 200px;float: left;background-color: blue;
+}
+#eight{
+    height: 300px;width: 600px;float: left;background-color: lawngreen;
+}
+#nine{
+    height: 100px;width: 600px;background-color: chocolate;
+}
+#ten{
+    height: 200px;width: 600px;background-color: yellow;
+}
+#eleven{
+    height: 200px;width: 200px;background-color: violet;float: left;
+}
+#twelve{
+    height: 100px;width: 200px;background-color: turquoise;
+}
+#thirteen{
+    height: 200px;width 200px;background-color: tan;
+}
+#fourteen{
+    height: 100px;width: 200px;background-color: springgreen;
+}
+#fifteen{
+    height: 300px;width: 200px;background-color: tomato;
+}
+#sixteen{
+    height: 100px;width: 200px;background-color: sienna;
+}
+#seventeen{
+    height: 100px;width: 200px;background-color: rosybrown;float: left;
+}
+#eighteen{
+    height: 100px;width: 800px;background-color: royalblue;float: left;
+}
+#ninteen{
+    height: 100px;width: 200px;background-color: thistle;float: right;
+}
+#twenty{
+    height: 50px;width: 200px;background-color: violet;
+}
+#tone{
+    height: 50px;width: 200px;
+}
+#ttwo{
+    height: 50px;width: 100px;background-color: red;
+}
+#tthree{
+    height: 100px;width: 100px;background-color: yellowgreen;float: left;
+}
+#tfour{
+    height: 200px;width: 100px;background-color: black;
+}
+#tfive{
+    height: 100px;width: 100px;background-color: aqua;float: right;
+}

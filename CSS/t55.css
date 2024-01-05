@@ -1,0 +1,35 @@
+#main{
+    height: 1000px;width: 1300px;
+}
+body{
+    text-align: center;
+    background-color: blueviolet;
+}
+#text{
+    padding-left: 200px;
+    color: white;
+}
+.more{
+    border-radius: 100px;
+    color: white;
+    background-color: blueviolet;
+    height: 30px;width: 100px;
+}
+#top{
+    margin-left: 300px;
+}
+#down{
+    margin-left: 300px;
+}
+.block{
+    display: inline;
+    float: left;
+    height: 400px;width: 250px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    color: blueviolet;
+}
+.pic{
+    height: 200px;width: 200px;
+}
