@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <style>
+            nav{
+                text-align: center;
+                font-size: 60px;
+                height: 60px;
+            }
+            div{
+                height: 200px;width: 200px;
+                float: left;
+                display: inline;
+                margin-left: 50px;
+                margin-top: 50px;
+                padding-left: 5px;
+                border: 2px solid black;
+            }
+            #main{
+                display: inline;
+                height: 1400px;
+                width: 1400px;
+                border: 0;
+            }
+            #xy{
+                background-color: aqua;
+            }
+            #xy:hover{
+                transform: translate(50px,50px);
+            }
+            #x{
+                background-color: blueviolet;
+            }
+            #x:hover{
+                transform: translateX(50px);
+            }
+            #y{
+                background-color: blue;
+            }
+            #y:hover{
+                transform: translateY(50px);
+            }
+            #z{
+                background-color: crimson;
+            }
+            #z:hover{
+                transform: translate3d(50px,50px,50px);
+            }
+            #r{
+                background-color: tomato;
+            }
+            #r:hover{
+                transform: rotate(70deg);
+            }
+            #ra{
+                background-color: chocolate;
+            }
+            #ra:hover{
+                transform: rotate(-70deg);
+            }
+            #rx{
+                background-color: violet;
+            }
+            #rx:hover{
+                transform: rotateX(60deg);
+            }
+            #ry{
+                background-color: chartreuse;
+            }
+            #ry:hover{
+                transform: rotateY(60deg);
+            }
+            #s{
+                background-color: cadetblue;
+            }
+            #s:hover{
+                transform: scale(2);
+            }#sx{
+                background-color: yellowgreen;
+            }
+            #sx:hover{
+                transform: ScaleX(2);
+            }#sy{
+                background-color: yellow;
+            }
+            #sy:hover{
+                transform: ScaleY(2);
+            }#sk{
+                background-color: springgreen;
+            }
+            #sk:hover{
+                transform: skew(45deg,15deg);
+            }#skx{
+                background-color: steelblue;
+            }
+            #skx:hover{
+                transform: skewX(45deg);
+            }#sky{
+                background-color: brown;
+            }
+            #sky:hover{
+                transform: SkewY(45deg);
+            }
+            #m{
+                background-color: darkred;
+            }
+            #m:hover{
+                transform: matrix(1, -0.3, 0, 1, 0, 0);
+            }/* matrix{scaleX(),skewY(),skewX(),scaleY(),translateX,translateY())*/
+            #td:hover{
+                transform: rotateZ(50deg);
+            }
+        </style>
+    </head>
+    <body>
+        <nav><h1>Transform</h1></nav>
+        <div id="main">
+            <div id="xy"><h2>translate</h2></div>
+            <div id="x"><h2>TranslateX</h2></div>
+            <div id="y"><h2>TranslateY</h2></div>
+            <div id="z"><h2>translate3d</h2></div>
+            <div id="r"><h2>Rotate</h2></div>
+            <div id="ra"><h2>RotateAnti</h2></div>
+            <div id="rx"><h2>RotateX</h2></div>
+            <div id="ry"><h2>RotateY</h2></div>
+            <div id="s"><h2>Scale</h2></div>
+            <div id="sx"><h2>ScaleX</h2></div>
+            <div id="sy"><h2>ScaleY</h2></div>
+            <div id="sk"><h2>Skew</h2></div>
+            <div id="skx"><h2>SkewX</h2></div>
+            <div id="sky"><h2>SkewY</h2></div>
+            <div id="m"><h2>Matrix</h2></div>
+            <div id="td"><h2>3d</h2></div>
+        </div>
+    </body>
+</html>
