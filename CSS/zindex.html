@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>z-index</title>
+    <style>
+        div{
+            height: 200px;width: 200px;
+            position: relative;
+            opacity: 0.75;
+        }
+        #one{
+            z-index: 1;
+            background-color: aqua;
+        }
+        #two{
+            z-index: 2;
+            background-color: cornflowerblue;
+            bottom: 100px;
+            left: 100px;
+        }
+        #three{
+            z-index: 3;
+            background-color: slateblue;
+            bottom: 200px;
+            left: 200px;
+        }
+        #four{
+            z-index: 4;
+            background-color: mediumblue;
+            bottom: 300px;
+            left: 300px;
+        }
+        #five{
+            z-index: 5;
+            background-color: darkblue;
+            bottom: 400px;
+            left: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <div id="four"></div>
+    <div id="five"></div>
+</body>
+</html>
