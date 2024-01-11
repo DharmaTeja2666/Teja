@@ -18,7 +18,7 @@
             #main{
                 display: inline;
                 height: 1400px;
-                width: 1400px;
+                width: auto;
                 border: 0;
             }
             #xy{
@@ -109,27 +109,33 @@
             #td:hover{
                 transform: rotateZ(50deg);
             }
+            @media screen and (max-width:500px) and (min-width:500px) {
+                .a{
+                    width: 300px;
+                    transition-duration: 5s;
+                }
+            }
         </style>
     </head>
     <body>
         <nav><h1>Transform</h1></nav>
         <div id="main">
-            <div id="xy"><h2>translate</h2></div>
-            <div id="x"><h2>TranslateX</h2></div>
-            <div id="y"><h2>TranslateY</h2></div>
-            <div id="z"><h2>translate3d</h2></div>
-            <div id="r"><h2>Rotate</h2></div>
-            <div id="ra"><h2>RotateAnti</h2></div>
-            <div id="rx"><h2>RotateX</h2></div>
-            <div id="ry"><h2>RotateY</h2></div>
-            <div id="s"><h2>Scale</h2></div>
-            <div id="sx"><h2>ScaleX</h2></div>
-            <div id="sy"><h2>ScaleY</h2></div>
-            <div id="sk"><h2>Skew</h2></div>
-            <div id="skx"><h2>SkewX</h2></div>
-            <div id="sky"><h2>SkewY</h2></div>
-            <div id="m"><h2>Matrix</h2></div>
-            <div id="td"><h2>3d</h2></div>
+            <div class="a" id="xy"><h2>translate</h2></div>
+            <div class="a" id="x"><h2>TranslateX</h2></div>
+            <div class="a" id="y"><h2>TranslateY</h2></div>
+            <div class="a" id="z"><h2>translate3d</h2></div>
+            <div class="a" id="r"><h2>Rotate</h2></div>
+            <div class="a" id="ra"><h2>RotateAnti</h2></div>
+            <div class="a" id="rx"><h2>RotateX</h2></div>
+            <div class="a" id="ry"><h2>RotateY</h2></div>
+            <div class="a" id="s"><h2>Scale</h2></div>
+            <div class="a" id="sx"><h2>ScaleX</h2></div>
+            <div class="a" id="sy"><h2>ScaleY</h2></div>
+            <div class="a" id="sk"><h2>Skew</h2></div>
+            <div class="a" id="skx"><h2>SkewX</h2></div>
+            <div class="a" id="sky"><h2>SkewY</h2></div>
+            <div class="a" id="m"><h2>Matrix</h2></div>
+            <div class="a" id="td"><h2>3d</h2></div>
         </div>
     </body>
 </html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>transition</title>
+    <style>
+        #main{
+                display: inline;
+                height: 1400px;
+                width: 1400px;
+                border: 0;
+        }
+        div{
+                height: 200px;width: 200px;
+                float: left;
+                display: inline;
+                margin-left: 50px;
+                margin-top: 50px;
+                padding-left: 5px;
+        }
+        #xy{
+            background-color: aqua;
+            transition-duration: 10s;
+            transition-delay: -2s;
+        }
+        #xy:hover{
+            height: 500px;width: 500px;
+            border-radius: 300px;
+            background-color: cadetblue;
+        }
+        #x{
+            height: 100px;width: 500px;
+            background-color: red;
+            animation-delay: 1s;
+            animation-duration: 10s;
+            animation-name: x;
+            animation-iteration-count: infinite;
+        }
+        @keyframes x{
+            from{
+                background-color: violet;
+            }
+            10%{
+                background-color: indigo;
+            }
+            20%{
+                background-color: blue;
+            }
+            30%{
+                background-color: green;
+            }
+            40%{
+                background-color: yellow;
+            }
+            50%{
+                background-color: orangered;
+                transform: translateY(300px);
+                height: 200px;width: 200px;
+                border-radius: 200px;
+            }
+            60%{
+                background-color: orangered;
+                transform: translateY(300px);
+                height: 200px;width: 200px;
+                border-radius: 200px;
+            }
+            70%{
+                background-color: yellow;
+            }
+            80%{
+                background-color: green;
+            }
+            90%{
+                background-color: blue;
+            }
+            100%{
+                background-color: indigo;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="xy"></div>
+        <div id="x"></div>
+    </div>
+</body>
+</html>
