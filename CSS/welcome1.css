@@ -1,0 +1,74 @@
+#main{
+    padding-left: 250px;
+}
+#left{
+    height: 600px;
+    padding-top: 10px;
+    width: 400px;
+    float: left;
+    background-color: lightseagreen;
+    text-align: center;
+}
+#icon{
+    height: 75px;
+    background-color: lightseagreen;
+    border: 0;
+    margin-right: 500px;
+    margin-bottom: 80px;
+}
+#w{
+    color: white;
+    margin-bottom: 30px;
+}
+#right{
+    height: 510px;
+    width: 600px;
+    text-align: center;
+    color: gray;
+    float: left;
+    border: 1px solid lightseagreen;
+    padding-top: 100px;
+}
+h1{
+    color: lightseagreen;
+    font-size: 50px;
+}
+img{
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+input{
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    height: 40px;width: 450px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    background-color: lightsteelblue;
+}
+#name{
+    background-image: url(https://cdn-icons-png.flaticon.com/128/8089/8089114.png);
+    background-position-y: center;
+    background-position-x: 5px;
+}
+#Email{
+    background-image: url(https://cdn-icons-png.flaticon.com/128/2767/2767188.png);
+    background-position-y: center;
+    background-position-x: 5px;
+}
+#password{
+    background-image: url(https://cdn-icons-png.flaticon.com/128/3064/3064155.png);
+    background-position-y: center;
+    background-position-x: 5px;
+}
+#button{
+    height: 50px;width: 250px;
+    background-color: lightseagreen;
+    border-radius: 50px;
+    padding-left: 0px;
+    border: 1px solid white;
+    margin-top: 10px;
+    color: white;
+}
