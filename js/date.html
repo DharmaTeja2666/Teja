@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const d = new Date();
+        document.write(d,"<br>");
+        document.write("Current Year is:"+d.getFullYear(),"<br>");
+        document.write("Current Month is:"+(d.getMonth()+1),"<br>");
+        document.write("Current Date is:"+d.getDate(),"<br>");
+        document.write("Current Day is:"+d.getDay(),"<br>");
+        document.write("Current Hours is:"+d.getHours(),"<br>");
+        document.write("Current Minutes is:"+d.getMinutes(),"<br>");
+        document.write("Current Seconds is:"+d.getSeconds(),"<br>");
+        document.write("Current Millisec is:"+d.getMilliseconds(),"<br>");
+        const weekDay=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        document.write("Current Day is:"+weekDay[d.getDay()],"<br>");
+        const Months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+        document.write("Current Month is:"+Months[(d.getMonth())],"<br>");
+    </script>
+</body>
+</html>
